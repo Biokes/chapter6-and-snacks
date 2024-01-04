@@ -4,8 +4,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class CheckOut{
-	public static void main(String abbey[]){
-Scanner input = new Scanner(System.in);
+	private Scanner input = new Scanner(System.in);
+	public static void checkOut(){
 System.out.print("What is the customers name: ");
 String name = input.nextLine();
 ArrayList<String> goods = new ArrayList<String>();
